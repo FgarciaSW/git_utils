@@ -7,3 +7,5 @@ git status
 git add <nombre_fichero>
 
 git commit -m "escribir un mensaje indicando por qué se compromete"
+
+fin
