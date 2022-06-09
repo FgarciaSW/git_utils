@@ -1,0 +1,12 @@
+Instrucciones para el dia 9-2-22
+
+aprender git
+
+Instrucciones para el dia 10-6-22
+
+aprender maven
+aprender intelliJ
+
+aprender docker
+aprender cas
+aprender de spring

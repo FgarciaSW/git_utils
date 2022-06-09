@@ -1,9 +1,0 @@
-Instrucciones para iniciar git en un directorio.
-
-git init
-
-git status
-
-git add <nombre_fichero>
-
-git commit -m "escribir un mensaje indicando por qué se compromete"
