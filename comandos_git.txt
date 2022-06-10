@@ -1,0 +1,105 @@
+Instrucciones para iniciar git en un directorio.
+
+
+#En el directorio en el que se desee monitorear el control de versiones
+git init
+
+
+#Conocer el estatus de los cambios realizados.
+git status
+
+
+##PASOS PARA UTILIZAR GIT
+#1 Realizar cambios en el directorio local
+#2 Enviar los cambios a la esta de stage
+#3 Enviar los cambios a la etapa de commit
+
+
+
+#AÑADIR UN FICHERO A LA ESTAPA DE STAGE
+
+git add <nombre_fichero>
+
+#ELIMINAR UN FICHERO DE LA ETAPA DE STAGE
+
+git restore --staged <nombre del fichero> 
+
+
+#AÑADIR UN FICHERO A LA ESTAPA DE COMMIT
+git commit -m "escribir un mensaje indicando por qué se compromete"
+
+#-----------------------
+# ELIMINAR UN ARCHIVO
+
+# Eliminar un archivo,requiere:
+# 1 Eliminarlo localmente
+# 2 Enviar el cambio a la etapa de stage
+# 3 Enviar el cambio a commit
+
+#1
+rm <archivo_a_eliminar>  -> Borrar el archivo del directorio local
+
+#2
+git add <archivo_a_eliminar>  -> Enviar los cambio a la etapa de stage, se borrará.
+
+######El borrado del archivo y su actualización en la etapa de stage, pueden realizarse con los dos comandos anteriores, o en su defecto con el siguiente comando.
+
+#1y2 en ocasiones podemos realizar los pasos 1 y 2 en un solo comando (git accion fichero)
+# por ejemplo git mv fichero 1 fichero 2, se utilizaría para cambiar el nombre.
+
+git rm <archivo_a_eliminar>
+
+#Enviar el cambio del al commit
+
+#3
+git commit -m "Mensaje"
+
+
+#RESTAURAR UN ARCHIVO
+
+#Se ha eliminado en el directorio local y en la etapa de stage, pero no en la etapa de commit
+#comando para restaurar un archivo desde la etapa de commit hasta  la etapa de stage
+
+git restore --staged <nombre del archivo>
+
+#Se ha eliminado el fichero en el directorio local, pero permanece en la etapa stage
+
+git restore <nombre>
+
+
+#INDICAR A GIT QUE IGNORE ARCHIVOS
+#Para ignorar a git que tenga en cuenta los siguientes archivos
+
+Los archivos o ficheros declarados en el fichero .gitignore no se enviarán a ninguna etapa de stage, ni del commit
+
+En este caso, he añadido ".env" al fichero de .gitignore, por tanto, el fichero ".env" en vez de ser considerado en el seguimiento de git, será ignorado.
+
+#Obtener un status más simplificado
+
+git status -s
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
