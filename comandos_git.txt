@@ -78,6 +78,13 @@ En este caso, he añadido ".env" al fichero de .gitignore, por tanto, el fichero
 
 git status -s
 
+#Control de versión a nivel de cambio de caracteres en los ficheros
+#en el directorio local
+git diff 
+
+#en la etapa de stage
+git diff --staged
+
 
 
 
