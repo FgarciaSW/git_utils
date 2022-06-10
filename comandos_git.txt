@@ -78,12 +78,39 @@ En este caso, he añadido ".env" al fichero de .gitignore, por tanto, el fichero
 
 git status -s
 
-#Control de versión a nivel de cambio de caracteres en los ficheros
+#HISTORIAL DE CAMBIOS A NIVEL DE CARACTERES EN UN FICHERO
 #en el directorio local
 git diff 
 
 #en la etapa de stage
 git diff --staged
+
+##HISTORIAL DE COMMITS
+git log
+
+## TRABAJAR EN GRUPO: CREAR A PARTIR DE UNA RAMA MASTER UNA RAMA SECUNDARIA
+
+#verififcar rama actual
+git branch
+
+git status
+
+#crear una nueva rama y cambiar de la rama master a la rama creada
+#la nueva rama tendra el nombre de "feature/funcionalidad_1_rama"
+git checkout -b feature/funcionalidad_1_rama
+
+#cerrar la rama
+Las ramas se cierran desde la rama master
+
+1. volver a la rama master
+2. merge la rama secundaria con la rama master
+
+1. git checkout master
+2. git merge feature/funcionalidad_1_rama
+
+
+
+
 
 
 
