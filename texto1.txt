@@ -1,1 +1,20 @@
 Hola soy el archivo a borrar! Eliminame si te atreves.
+
+
+funcionalidad 1
+#Escribe aqui el codigo de la funcionalidad 1
+#Unai
+
+x=x+2;
+Y=10;
+
+x=x+y;
+cambios en la rama2
+
+funcionalidad 2
+#Escribe el codigo de la funcionalidad 2
+#David
+
+funcionalidad 3
+#Escribe el codigo de la funcionalidad3
+#Tomas
