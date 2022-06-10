@@ -1,5 +1,6 @@
 Hola soy el archivo a borrar! Eliminame si te atreves.
 
+<<<<<<< HEAD
 
 funcionalidad 1
 #Escribe aqui el codigo de la funcionalidad 1
@@ -18,3 +19,8 @@ funcionalidad 2
 funcionalidad 3
 #Escribe el codigo de la funcionalidad3
 #Tomas
+=======
+Estos cambios solo se aplican desde la rama 1
+>>>>>>> feature/funcionalidad1
+
+p=p+a
