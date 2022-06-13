@@ -1,0 +1,41 @@
+
+***
+#1 HOW TO ACHIVE THE PERFECT COMMIT
+
+#1 Add the right changes!
+#2 Compose a good commit message!
+
+#RULE: ONE COMMIT PEER TOPIC
+
+# Files: A, B, C  con varias funciones mezcladas -> HACER UN COMMIT DE TODO ES UN ERROR
+# FIles: A, B con cambios sobre el mismo topic -> HACER UN COMMIT ES UN ACIERTO
+
+#################################################################
+#Escenario 1
+# Objetivo: Subir cambios granulares de un fichero, a la fase de staged.
+
+
+#Se ha realizado cambios en el archivo A sobre el TOPIC 1, y cambios
+# en el archivo B sobre el TOPIC 1 y el TOPIC 2.
+# ¿Hay alguna forma de añadir en el archivo B exclusivamente los cambios del TOPIC 1 a la fase de stage? Porque los cambios del TOPIC 2 no deberían incluirse en el COMMIT futuro.
+
+# La opción -p permite paginar
+
+git add -p <file>
+
+####################################################################
+#Escenario 2
+#Objetivo: ¿Que debe tener un good commit message?
+
+# SUBJECT
+ Concise summary of what happened
+#BODY
+ What is now different than before?
+ Whats the reason for the change?
+Is there anything to watch out for /anything particularly remarkable?
+
+***
+# 2 BRANCHING STRATEGIES
+
+
+

@@ -20,7 +20,7 @@ git status
 
 git add <nombre_fichero>
 
-#ELIMINAR UN FICHERO DE LA ETAPA DE STAGE
+#ELIMINAR UN CAMBIO EN UN FICHERO DE LA ETAPA DE STAGE
 
 git restore --staged <nombre del fichero> 
 
