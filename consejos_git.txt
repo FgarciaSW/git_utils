@@ -82,6 +82,9 @@ Will be deleted after integration (merge/rebase)
 
 #Pull request
 
+No es una característica esencial de git, sino que es provista por "hosting platform": Github , GitLab, etc
+Por tanto, puede variar un poco dependiendo de la plataforma.
+
 
 
 
