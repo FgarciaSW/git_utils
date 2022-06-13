@@ -1,5 +1,11 @@
 Instrucciones para iniciar git en un directorio.
 
+#Configuración de nombre y correo
+
+git config --global user.name "Escribetunombre"
+
+git config --global user.email "escribetucorreo"
+
 
 #En el directorio en el que se desee monitorear el control de versiones
 git init
@@ -16,11 +22,11 @@ git status
 
 
 
-#AÑADIR UN FICHERO A LA ESTAPA DE STAGE
+#AÑADIR "UN CAMBIO" (FICHERO) A LA ESTAPA DE STAGE
 
 git add <nombre_fichero>
 
-#ELIMINAR UN CAMBIO EN UN FICHERO DE LA ETAPA DE STAGE
+#ELIMINAR "UN CAMBIO" (UN FICHERO) DE LA ETAPA DE STAGE
 
 git restore --staged <nombre del fichero> 
 
@@ -109,8 +115,21 @@ Las ramas se cierran desde la rama master
 2. git merge feature/funcionalidad_1_rama
 
 
+# Usar git y Github
 
+Escenario 1
 
+Quiero contribuir a realizar cambios sobre un repositorio de Github, pero no tengo permiso para modificarlo
+
+Este problema, se solvento, realizando una petición a los administradores del repositorio "pull request"
+
+Los pasos son los siguientes:
+
+1. Fork [GUI]-> copia del repositorio online de terceros a mi repositorio online personal. (De su repositorio de Github a mi repositorio de Github)
+2. Clone -> copia de mi repositorio de Github a mi repositorio local
+3. Realizo los cambios en local y los envío a las etapas de staged y commit en local
+4. Push -> realizo un envío de los cambios de mi etapa commit local a mi repositorio online de Github
+5. Desde Github realizo un pull [GUI] -> solicitando a los administradores originales que añadan mis cambios a su código. Esta solicitud será aceptada o denegada por los owners.
 
 
 

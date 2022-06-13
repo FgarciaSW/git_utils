@@ -1,4 +1,5 @@
 
+
 ***
 #1 HOW TO ACHIVE THE PERFECT COMMIT
 
@@ -36,6 +37,57 @@ Is there anything to watch out for /anything particularly remarkable?
 
 ***
 # 2 BRANCHING STRATEGIES
+
+
+Deben existir convenciones en un equipo de programación.
+
+¿Que branches hay?
+¿Como utilizarlas?
+¿Cuando se crean nuevas?
+
+
+Distinguir 
+a. Long-Running branches
+b. Short Running branches
+
+#a. Long Running branches
+
+Existen durante todo el periodo de vida del proyecto.
+
+Often they mirror "stages" in your dev life cycle.
+
+Common convention:no direct commits.
+
+#b.Short lived Branches
+
+Se crean para nuevas características, experimentos, 
+
+Will be deleted after integration (merge/rebase)
+
+
+# Two examples of branch strature
+
+# Github flow
+
+1 long running branch: main
++1 short running branch: features, bugs, etc
+# Git flow
+
+2 long running branch: main + develop
++1 short running branch over develop
+
+*main will be production enviroment
+*develop will be develop enviroment
+
+
+#Pull request
+
+
+
+
+
+
+
 
 
 
