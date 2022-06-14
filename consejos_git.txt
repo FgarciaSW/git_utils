@@ -98,6 +98,7 @@ En el archivo ./comandos_git.txt explico los pasos que hay que seguir antes, dur
 
 #Hacer un ejemplo práctico.
 
+-Se ha conectado el repositorio local de git, con el repositorio remoto en Github [DONE]
 
 
 
