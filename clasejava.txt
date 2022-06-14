@@ -1,0 +1,14 @@
+aplicacion bases
+
+dfad
+fdsf
+ds
+fd
+fd
+
+funcion extra1 ()
+{
+
+pendiente de desarrollo
+
+}
