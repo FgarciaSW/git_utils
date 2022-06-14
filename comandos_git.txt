@@ -117,6 +117,17 @@ Las ramas se cierran desde la rama master
 
 # Usar git y Github
 
+#conectar tu repositorio local con una cuenta de git
+
+git remote add origin <url del repositorio remoto>
+
+git push -u origin <nombre de la rama que vamos a crear -u y enviar cambios  a github>
+*la rama debe existir en el directorio local.
+*la rama se crea en el directorio remoto con la opción -u
+
+
+
+#Pull request en GIT HUB
 Escenario 1
 
 Quiero contribuir a realizar cambios sobre un repositorio de Github, pero no tengo permiso para modificarlo

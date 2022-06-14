@@ -82,11 +82,21 @@ Will be deleted after integration (merge/rebase)
 
 #Pull request
 
-No es una característica esencial de git, sino que es provista por "hosting platform": Github , GitLab, etc
-Por tanto, puede variar un poco dependiendo de la plataforma.
+# Es una forma de contribuir en repositorios de terceros.
+# You can fork the original repository, make changes in your forked version and
+# open a pull request to include those changes into the original repository.
+# And one of the main contributors can then review your changes and decide to include them or not.
 
 
+No es una característica esencial de git, sino que es provista por "hosting platform": Github ,
+ GitLab, etc. Por tanto, puede variar un poco dependiendo de la plataforma.
 
+Pull request es una solicitud a un repositorio online de un tercero, para solicitarle que
+acepte los cambios que realizaste para mejorar su código.
+
+En el archivo ./comandos_git.txt explico los pasos que hay que seguir antes, durante y después de hacer un pull.
+
+#Hacer un ejemplo práctico.
 
 
 
