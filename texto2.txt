@@ -1,9 +1,0 @@
-Rama desarrollo
-
-Hola soy el desarrollador.
-
-Rama master
-
-Hola el proyecto comienza cuando vuelva el master.
-
-
