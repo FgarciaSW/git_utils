@@ -16,7 +16,7 @@ if(x>18)
  eres menor de edad. No puedes tomar alcohol.
 
 print
-(Ha terminado);
+Se agrega linea desde la rama de desarrollo.
 }
 
 
