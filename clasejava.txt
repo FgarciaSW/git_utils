@@ -1,10 +1,10 @@
 aplicacion bases
 
-dfad
-fdsf
-ds
-fd
-fd
+main()
+x=elige tu edad
+funcion extra1(x)
+fin;
+
 
 funcion extra1 ()
 {
@@ -14,3 +14,6 @@ funcion extra1 ()
 print
 (Ha terminado);
 }
+
+
+cambios no commiteados
