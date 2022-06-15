@@ -100,6 +100,84 @@ En el archivo ./comandos_git.txt explico los pasos que hay que seguir antes, dur
 
 -Se ha conectado el repositorio local de git, con el repositorio remoto en Github [DONE]
 
+#WORKING WITH BRANCHES
+
+++Cuando trabajes en una rama secundaria, debes enviar los cambios a la fase de commit en la rama de 
+trabajo antes de cambiar de rama.
+
+++Si cambias de rama antes de commitear tus modificaciones en la rama de trabajo, sobreescribiras el archivo
+en el directorio local. Ten cuidado.
+
+¡IMPORTANTE!+Mala praxis consiste en escribir sobre la misma linea en dos ramas diferentes. Pero si escribes en lineas diferentes del 
+mismo documento, cada linea la has añadido en una branch diferente, al realizar el merge, se une todo al documento.
+
++Una vez que una rama se ha "merge" con la rama principal, no tiene sentido seguir trabajando en esta rama. Se debería eliminar.
+
+
+ejemplo:
+-------------- +
+documento      +
+
+ codigo base   +
+
+ funcion extra +
+---------------+
+
+-creo una rama secundaria: rama_desarrollo
+
+---------------
+documento      +
+               +
+  codigo base  +
+               +
+               +
+ funcion extra +
+ x=x+a         +   
+----------------
+
+
+-he modificado el documento añadiendo la linea x=x+a
+-envio los cambios a la etapa de staged y etapa de commmit de mi rama_desarrollo
+-cambio desde la rama_desarrollo a la rama master
+
+--------------
+documento       +
+                + 
+ codigo base    +
+ main (int a){} +
+                +
+ funcion extra  +
+---------------
+
+-Hay que resaltar que los cambios en la rama_desarrollo no se reflejan en la rama master AÚN.
+-Edito mi documento, añadiendo código al sector de codigo base.
+
+- Desde la rama master, mezclo las ramas con el comando git merge rama_desarrollo
+
+- El resultado final es:
+Al documento de la rama master, se han añadido la linea que se agrego en la rama_desarrollo
+
+--------------       
+documento       +
+                +
+ codigo base    +
+ main (int a){} +
+                +
+ funcion extra  +
+ x=x+a
+----------------
+
+
+Creo el doc      Creo la rama desaroolo                        git merge 
+                                        Edito codigo base
+----X--------------O---------------------------X----------------O--------          MASTER
+                   -                                            -
+                   -                                            -
+                    --------------X------------------------------                  RAMA_DESARROLLO
+
+                      Edito funcion extra
+          
+
 
 
 
