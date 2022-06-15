@@ -1,5 +1,22 @@
-Instrucciones para iniciar git en un directorio.
 
+#
+# COMANDOS BÁSICOS DE GIT
+#
+# Git es un control de versiones distribuido ¿Cómo nació? Después de los controles de versiones
+# localizados y centralizados.
+#
+# Entender Version Stages: 
+
+Directorio local -----> Staged -------------> Commit -------------------> Server
+
+# Entender los comandos más útiles
+
+edit locally -----> git add <name> ----------> git commit -m "mensaje" ----> git push
+
+# Entender branch working -> Leer el manual: git_manual_intermedio.txt
+
+
+#Instrucciones para iniciar git en un directorio.
 #Configuración de nombre y correo
 
 git config --global user.name "Escribetunombre"
