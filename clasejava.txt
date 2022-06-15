@@ -9,7 +9,11 @@ fd
 funcion extra1 ()
 {
 
-5r43rf34f3
+if(x>18)
+ eres mayor de edad
+
+if(x>18)
+ eres menor de edad. No puedes tomar alcohol.
 
 print
 (Ha terminado);
