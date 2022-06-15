@@ -178,6 +178,61 @@ Creo el doc      Creo la rama desaroolo                        git merge
                       Edito funcion extra
           
 
+#MERGE CONFLICT
+
+Escenario: Hay 2 ramas de trabajo:
+
+- rama master
+- rama de desarrollo
+
+#Desde ambas ramas, se modifica la misma linea en el mismo fichero.
+
+#Cuando se va a 'merge' de la rama desarrollo en la rama master -> CONFLICTO 
+
+#Ejemplo de traza, despues de ejecutar el comando "git merge desarrollo"
+
+Auto-fusionando clasejava.txt
+CONFLICTO (contenido): Conflicto de fusión en clasejava.txt
+Fusión automática falló; arregle los conflictos y luego realice un commit con el resultado.
+
+#Al abrir el fichero que se ha modificado desde ambos branches, aparecen los dos cambios, en
+#el fichero, para que sea facil observar las diferencias
+
+Ejemplo del fichero:
+
+-----------------------------------------------------
+aplicacion bases                                    +
+                                                    +
+main()                                              +
+x=elige tu edad                                     +
+funcion extra1(x)				    +
+fin;						    +
+						    +
+						    +
+funcion extra1 ()
+{
+
+if(x>18)
+ eres mayor de edad
+
+if(x>18)
+ eres menor de edad. No puedes tomar alcohol.
+
+print
+#<<<<<<< HEAD
+#(Ha terminado); Se agrega linea desde rama master;
+#=======
+#Se agrega linea desde la rama de desarrollo.
+#>>>>>>> desarrollo
+}
+
+------------------------------------------------------
+
+Desde HEAD hasta ======; son los cambios efectuados en la rama master
+
+Desde ===== hasta desarrollo; son los cambios efectuados en la rama desarrollo.
+
+
 
 
 
