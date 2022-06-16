@@ -1,0 +1,36 @@
+
+# STAGES
+
+#The staging area is also a unique funcionality of Git. It can be considered
+#as a preview of our next commit.
+
+#The staging area can be considered as a place where Git store the changes. 
+
+#Althought Git doesnt have a dedicated directory where it can store some
+#objects representing file changes. Instead of this it uses a file called
+#index.
+
+# index es un fichero binario con los cambios actualizados en la etapa de stage
+
+How to see files in staging area.
+git ls-files --stage
+
+o 
+
+git ls-files 
+
+# Antes de enviar a la etapata de staging o commit, sería recomendable:
+
+#Before send to staging
+
+git diff
+
+#Before send to commit
+
+git ls-files
+
+git diff --staged
+
+git log --name-only (añade el nombre de los ficheros con modificaciones comiteadas)
+
+# siguiente titulo
