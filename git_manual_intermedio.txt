@@ -187,7 +187,15 @@ Creo el doc      Creo la rama desaroolo                        git merge
                       Edito funcion extra
           
 
-#MERGE CONFLICT
+#MERGE CONFLICTS
+
+* concepto clave
+Definir con tu equipo 
+1. qué cambios se van a realizar
+2. qué archivos se van a modificar
+3. Evitar que dos programadores editen el mismo archivo, a no ser que sepan
+donde no pueden y si pueden agregar código.
+
 
 Escenario: Hay 2 ramas de trabajo:
 
@@ -203,6 +211,9 @@ Escenario: Hay 2 ramas de trabajo:
 Auto-fusionando clasejava.txt
 CONFLICTO (contenido): Conflicto de fusión en clasejava.txt
 Fusión automática falló; arregle los conflictos y luego realice un commit con el resultado.
+
+#Despues de ejecutar el comando git merge, en el fichero en que haya conflicto se 
+#inlcuirán los cambios específicos donde hay conflicto:
 
 #Al abrir el fichero que se ha modificado desde ambos branches, aparecen los dos cambios, en
 #el fichero, para que sea facil observar las diferencias
@@ -242,6 +253,28 @@ Desde HEAD hasta ======; son los cambios efectuados en la rama master
 Desde ===== hasta desarrollo; son los cambios efectuados en la rama desarrollo.
 
 
+#¿COMO RESOLVER UN MERGE CONFLICT?
+
+Simply clean up the file!!!!!!!!!!!!!!!!!!!
+
+** concepto clave, comunicación entre los dos miembros del equipo para resolver que
+fragmento de código permanece y cual se borra.
+
+
+#Como hemos visto al crearse un conflicto entre ramas, se incluyen las aportaciones 
+# de cada rama, para facilitar al programador la revisión.
+#Si deseamos evitar que esto ocurran, podemos volver al estado anterior con el comando
+
+git merge --abort
+
+
+# Existen herramientas especificas en grupos de desarrollo, para solucionar de forma rápida 
+# y visual las diferencias de conflictos por merge conflicts.
+ej: kaleidoscope
+
+
+
+#REBASE
 
 
 

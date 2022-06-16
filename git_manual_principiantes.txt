@@ -13,6 +13,9 @@ Directorio local -----> Staged -------------> Commit -------------------> Server
 
 edit locally -----> git add <name> ----------> git commit -m "mensaje" ----> git push
 
+nano <-------------- git restore <name> <------ git restore --staged <name>                                           
+
+
 # Entender branch working -> Leer el manual: git_manual_intermedio.txt
 
 
