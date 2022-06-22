@@ -25,6 +25,10 @@ git ls-files
 
 git diff
 
+git ls-files
+
+git status
+
 #Before send to commit
 
 git ls-files

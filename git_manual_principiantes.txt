@@ -105,11 +105,17 @@ En este caso, he añadido ".env" al fichero de .gitignore, por tanto, el fichero
 git status -s
 
 #HISTORIAL DE CAMBIOS A NIVEL DE CARACTERES EN UN FICHERO
-#en el directorio local
+
+#Historial de cambios entre "local directory" y fase de "staging"
 git diff 
 
-#en la etapa de stage
+#Historial de cambios entre "fase de staging" y fase de "commit"
 git diff --staged
+
+#Para ver los cambios de un fichero especifico
+
+git diff <nombre del fichero>
+
 
 ##HISTORIAL DE COMMITS
 git log

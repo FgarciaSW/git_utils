@@ -1,0 +1,49 @@
+Realizar ejercicios de git cada 14 días
+
+Ejercicio1
+
+¿como saber si un directorio está siendo trackeado por git?
+
+Dada un directorio no conocido, averiguar que ficheros y directorios tiene
+en las fases de local directory, staging and commit.
+
+Despues utilizar el comando diff para encontrar las diferencias entre los archivos. en las diferentes fases.
+
+¿Qué archivos no se trakean en el directorio?
+
+Ejercicio3
+
+Dado un directorio conocido, actualizar el de manera granular -p fichero1.txt y enviar a las fases de staged y commit.
+
+Modificar el fichero1.txt en el directorio local y enviar a la fase de staged.
+
+Recuperar el fichero original desde la fase de commit, a la fase de staged y hasta el directorio local.
+
+Ejercicio4.
+
+Trabajar con branches. ¿Conoces 2 estrategias de branch?
+
+Crear una branch de desarrollo.
+
+Realizar modificaciones en un fichero en la rama master y en la rama desarrollo.
+
+¿Si modifico lineas distintas puede hacer merge?
+
+¿Si modifico la misma linea puedo hacer merge o creo un conflicto?
+
+Ejercicio 5
+
+Dado un merge conflict ¿cómo solucionarlo?
+
+Ejercicio 6
+
+¿Como realizar un mal commit? ¿Cómo realizar un buen commit?
+
+Ejercicio 7
+
+¿Qué es un rebase?¿Cuando y cómo se utiliza?
+
+Ejercicio 8
+
+¿Realizar operaciones de push, clone, fork y pull?
+
